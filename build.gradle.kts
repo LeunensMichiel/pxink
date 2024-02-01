@@ -1,4 +1,9 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+/**
+ * Use `apply false` in the top-level build.gradle file to add a Gradle
+ * plugin as a build dependency but not apply it to the current (root)
+ * project. Don't use `apply false` in sub-projects. For more information,
+ * see https://docs.gradle.org/current/userguide/plugins.html#sec:subprojects_plugins_dsl
+ */
 plugins {
     id("com.android.application") version "8.2.2" apply false
     id("org.jetbrains.kotlin.android") version "1.9.22" apply false

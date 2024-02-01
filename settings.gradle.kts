@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "pxink"
+rootProject.name = "My Application"
 include(":app")
+ 
